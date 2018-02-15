@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 class Examples extends Component {
   constructor(props) {
     super(props)
-    this.state = {count: 0, sum: 3, a:1, b:2}
+    this.state = {count: 0, sum: 3, a: 1, b: 2}
   }
   render() {
     return (
