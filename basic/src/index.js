@@ -6,6 +6,10 @@ class Examples extends Component {
     console.log("Hello from func01");
     return "function for webpack";
   }
+  test(e) {
+    let my = e ? true : false;
+    console.log(my);
+  }
   render() {
     const func02 = function() {
       console.log("Hello from fun02");
@@ -17,6 +21,7 @@ class Examples extends Component {
         <div>{1+1}</div>
         <div>{this.func01()}</div>
         <div>{func02()}</div>
+        <button onClick={this.test(false)}>Make click</button>
       </div>
     )
   }
