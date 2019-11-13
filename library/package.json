@@ -12,12 +12,18 @@
     "not op_mini all"
   ],
   "dependencies": {
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "aria-label-prop-type": "^1.1.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
   "devDependencies": {
-    "@storybook/react": "^5.2.4"
+    "@storybook/addon-actions": "5.2.6",
+    "@storybook/react": "^5.2.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "storybook-addon-figma": "^0.1.0"
   },
   "scripts": {
     "build": "react-scripts build",
